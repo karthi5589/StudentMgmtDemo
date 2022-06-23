@@ -1,0 +1,80 @@
+[
+    {
+      "id": "1",
+      "name": "1st Grade",
+      "Subjects": [
+        {
+          "id": "1",
+          "name": "Sub 1"
+        },
+        {
+          "id": "2",
+          "name": "Sub 2"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2nd Grade",
+      "Subjects": [
+        {
+          "id": "3",
+          "name": "Sub 1"
+        },
+        {
+          "id": "4",
+          "name": "Sub 2"
+        },
+        {
+          "id": "5",
+          "name": "Sub 3"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3rd Grade",
+      "Subjects": [
+        {
+          "id": "6",
+          "name": "Sub 1"
+        },
+        {
+          "id": "7",
+          "name": "Sub 2"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4th Grade",
+      "Subjects": [
+        {
+          "id": "8",
+          "name": "Sub 1"
+        },
+        {
+          "id": "9",
+          "name": "Sub 2"
+        },
+        {
+          "id": "10",
+          "name": "Sub 3"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "5th Grade",
+      "Subjects": [
+        {
+          "id": "11",
+          "name": "Sub 1"
+        },
+        {
+          "id": "12",
+          "name": "Sub 2"
+        }
+      ]
+    }
+  ]

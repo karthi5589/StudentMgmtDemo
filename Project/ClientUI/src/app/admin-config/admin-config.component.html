@@ -1,0 +1,28 @@
+<mat-card>
+  <mat-card-title>Configurations</mat-card-title>
+  <div fxLayout="row" style="margin-top: 100px;" fxLayoutGap="100px">
+    <div fxLayout="column">
+      Upload Grades
+    </div>
+    <div fxLayout="column">
+      <input #myGInput type="file" accept=".json" class="file-input" (change)="onJsonFileSelected($event)">
+    </div>
+    <div fxLayout="column">
+      {{jsonMessage}}
+    </div>
+  </div>
+
+  <div fxLayout="row" style="margin-top: 50px;" fxLayoutGap="100px">
+    <div fxLayout="column">
+      Upload Student Score
+    </div>
+    <div fxLayout="column">
+      <input #mySInput type="file" accept=".csv" class="file-input" (change)="onCsvFileSelected($event)">
+    </div>
+
+    <div fxLayout="column">
+      {{csvMessage}}
+    </div>
+  </div>
+
+</mat-card>
